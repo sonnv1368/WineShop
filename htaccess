@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^category-([-a-zA-Z0-9]+)-([0-9]+).html index.php?page=sp&idmuc=1
+RewriteRule ^([-a-zA-Z0-9]+)-([0-9]+).html index.php?page=ct-sp&id=55
+RewriteRule ^([-a-zA-Z0-9]+).html index.php?pg=$1
